@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnSelRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONAR RESTAURANTE" />
+
+    <Button
+        android:id="@+id/btnCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONAR CONTACTO"/>
+
+    <Button
+        android:id="@+id/btnImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONAR IMAGEN" />
+
+    <Button
+        android:id="@+id/btnAud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONAR AUDIO" />
+
+    <Button
+        android:id="@+id/btnVid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONAR VIDEO" />
+</LinearLayout>
